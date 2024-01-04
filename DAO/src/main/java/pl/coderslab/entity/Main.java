@@ -1,6 +1,6 @@
 package pl.coderslab.entity;
 
-public class MainDao {
+public class Main {
     public static void main(String[] args) {
         User tomek = new User();
         tomek.setUserName("Tomekdf");
@@ -11,6 +11,7 @@ public class MainDao {
         System.out.println(read);
         read.setUserName("Nowy");
         read.setPassword("nowyyy");
+        tomekDao.update(read);
         tomekDao.findAll();
         User[] tab = tomekDao.findAll();
         for (User u : tab) {
