@@ -1,6 +1,6 @@
-# Workshop2
+# workshopDAO
 
-The purpose of the program is to create a data access utility object. The project was made as part of an exercise in the coderslab course.
+The goal of the program is to create an object-oriented data access layer. The project was made as part of an exercise in the coderslab course.
 
 # features
 
